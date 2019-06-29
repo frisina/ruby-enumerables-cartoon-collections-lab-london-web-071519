@@ -28,5 +28,7 @@ def find_the_cheese(array) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
+  set = array + cheese_types - (array & cheese_types)
+  return set
 
 end
