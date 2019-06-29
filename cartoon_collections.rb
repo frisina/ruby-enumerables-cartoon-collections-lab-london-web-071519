@@ -19,7 +19,7 @@ end
 def long_planeteer_calls(array) # code an argument here
   # Your code here
 
-  return array.any? { |num| num > 4}
+  return array.any? { |num| num.length > 4}
 
 end
 
