@@ -18,14 +18,13 @@ end
 
 def long_planeteer_calls(array) # code an argument here
   # Your code here
-  if array.select { |num| num.length > 4 }
+  if array.select { |num| num.length > 5 }
     return_value = true
   else return_value = false
   end
   return return_value
 end
 
-end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
