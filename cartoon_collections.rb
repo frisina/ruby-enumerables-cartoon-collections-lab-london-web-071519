@@ -10,7 +10,7 @@ end
 def summon_captain_planet(array) # code an argument here
   # Your code here
   empty_array = []
-  array.each do |entry|
+  array.map do |entry|
     empty_array.push("#{entry.capitalize}!")
   end
   return empty_array
