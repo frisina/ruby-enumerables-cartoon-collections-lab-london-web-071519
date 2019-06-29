@@ -28,6 +28,7 @@ def find_the_cheese(array) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  return array & cheese_types
+  final_value = array & cheese_types
 
+  return final_value.split("")
 end
