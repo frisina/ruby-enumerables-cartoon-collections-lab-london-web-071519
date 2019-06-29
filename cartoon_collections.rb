@@ -30,7 +30,7 @@ def find_the_cheese(array) # code an argument here
 
   superset = (array + cheese_types)
   subset = superset.uniq
-
-  return subset
+  finalset = superset - subset
+  return finalset
 
 end
