@@ -20,7 +20,7 @@ def long_planeteer_calls(array) # code an argument here
   # Your code here
   return_value = false
 
-  if array.select { |num, index| num[index].length > 4 }
+  if array.select { |num| num.length > 4 }
     return_value = true
   end
   return return_value
