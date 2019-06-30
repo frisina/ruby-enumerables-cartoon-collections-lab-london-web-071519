@@ -30,7 +30,7 @@ def find_the_cheese(array) # code an argument here
   result = nil
   new_list = []
 
-  if cheese_types.all? { |e| array.include?(e) }
+  if (array & cheese_types).empty?
     new_list = array & cheese_types
     result = new_list[0]
   end
