@@ -33,6 +33,8 @@ def find_the_cheese(array) # code an argument here
   if array.include?(cheese_types)
     new_list = array & cheese_types
     result = new_list[0]
+  else
+    result = nil
   end
   return result
 end
