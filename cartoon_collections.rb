@@ -31,7 +31,6 @@ def find_the_cheese(array) # code an argument here
   new_list = []
 
   if array.include?(cheese_types)
-    binding.pry
     new_list = array & cheese_types
     result = new_list[0]
   else
