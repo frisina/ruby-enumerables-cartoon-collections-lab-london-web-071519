@@ -34,5 +34,5 @@ def find_the_cheese(array) # code an argument here
     new_list = array & cheese_types
     result = new_list[0]
   end
-  return result
+  result
 end
