@@ -33,8 +33,6 @@ def find_the_cheese(array) # code an argument here
   if cheese_types.all? { |e| array.include?(e) }
     new_list = array & cheese_types
     result = new_list[0]
-  else
-    result = nil
   end
   return result
 end
