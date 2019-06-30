@@ -30,6 +30,7 @@ def find_the_cheese(array) # code an argument here
 
   if array.include?(cheese_types)
     new_list = array & cheese_types
+    result = new_list[0]
   end
-  return new_list[0]
+  return 
 end
